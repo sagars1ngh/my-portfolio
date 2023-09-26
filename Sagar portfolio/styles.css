@@ -1,0 +1,107 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bgimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: burlywood;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+.photo img{
+    position: relative;
+    top: 30px;
+    left: 450px;
+    height: 400px;
+    width: 400px;
+    border: 2px solid brown;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+section {
+    padding: 30px;
+}
+
+#about{
+    display: inline-block;
+    border: 2px solid rgb(171, 50, 50);
+    border-radius: 30px;
+    margin: 30px;
+    background-color: wheat;
+}
+
+#skills {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: wheat;
+    border: 2px solid rgb(171, 50, 50);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px 0;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+li::before {
+    content: "\2022"; /* Bullet character */
+    color: #007BFF;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#portfolio{
+    display: inline-block;
+    border: 2px solid brown;
+    border-radius: 30px;
+    margin: 30px;
+    background-color: wheat;
+}
+
+#contact{
+    display: inline-block;
+    border: 2px solid brown;
+    border-radius: 30px;
+    margin: 30px;
+    background-color: wheat;
+}
